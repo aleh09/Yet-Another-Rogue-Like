@@ -3,6 +3,9 @@
 
 #include "MovingBall.h"
 
+float timeAlive = 0;
+const float TIME_TO_LIVE = 3;
+
 // Sets default values
 AMovingBall::AMovingBall()
 {
@@ -41,5 +44,16 @@ void AMovingBall::Tick(float DeltaTime)
 	NewRotation.Yaw += DeltaRotation;
 	SetActorLocationAndRotation(NewLocation, NewRotation);
 
+	timeAlive += DeltaTime;
+	if (timeAlive >= TIME_TO_LIVE) Die();
+
+}
+
+void AMovingBall::Die() {
+	Destroy();
+}
+
+void AMovingBall::Nice() {
+	int x = 0;
 }
 
