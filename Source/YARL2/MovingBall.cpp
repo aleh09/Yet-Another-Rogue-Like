@@ -3,7 +3,7 @@
 
 #include "MovingBall.h"
 
-float timeAlive = 0;
+float timeAlive;
 const float TIME_TO_LIVE = 3;
 
 // Sets default values
@@ -27,7 +27,7 @@ AMovingBall::AMovingBall()
 void AMovingBall::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	timeAlive = 0;
 }
 
 // Called every frame
