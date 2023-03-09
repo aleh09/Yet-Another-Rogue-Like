@@ -44,8 +44,8 @@ void AMovingBall::Tick(float DeltaTime)
 	NewRotation.Yaw += DeltaRotation;
 	SetActorLocationAndRotation(NewLocation, NewRotation);
 
-	timeAlive += DeltaTime;
-	if (timeAlive >= TIME_TO_LIVE) Die();
+	//timeAlive += DeltaTime;
+	//if (timeAlive >= TIME_TO_LIVE) Die();
 
 }
 
