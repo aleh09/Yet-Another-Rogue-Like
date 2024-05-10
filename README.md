@@ -9,6 +9,9 @@ There are 11 (possible) levels to play through and after getting to the end of a
 ## Video Demo
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lBKO38nM_rI/0.jpg)](https://www.youtube.com/watch?v=lBKO38nM_rI)
 
+## Play YARL!
+Download: [Here](https://github.com/aleh09/Yet-Another-Rogue-Like/releases)
+
 
 
 
